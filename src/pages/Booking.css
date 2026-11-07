@@ -1,0 +1,208 @@
+/* ================================
+   Booking Page
+================================ */
+
+.booking-page {
+  min-height: 100vh;
+  padding: 60px 8%;
+  background: linear-gradient(135deg, #F5EFE5, #FFFFFF);
+}
+
+/* Booking Header */
+
+.booking-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking-header h1 {
+  color: #183D35;
+  font-size: 38px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.booking-header p {
+  color: #53645D;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Booking Container */
+
+.booking-container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.booking-form-section {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(24, 61, 53, 0.12);
+  border-top: 5px solid #397A68;
+}
+
+/* Section Headings */
+
+.booking-form-section h2 {
+  color: #183D35;
+  font-size: 22px;
+  margin: 28px 0 16px;
+}
+
+.booking-form-section h2:first-child {
+  margin-top: 0;
+}
+
+/* Labels */
+
+.booking-form-section label {
+  display: block;
+  color: #183D35;
+  margin: 17px 0 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Input Fields */
+
+.booking-form-section input,
+.booking-form-section textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #D9DED8;
+  border-radius: 9px;
+  font-size: 15px;
+  font-family: inherit;
+  box-sizing: border-box;
+  background-color: #FFFEFC;
+  color: #263B35;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-form-section input:focus,
+.booking-form-section textarea:focus {
+  outline: none;
+  border-color: #397A68;
+  box-shadow: 0 0 0 3px rgba(57, 122, 104, 0.13);
+}
+
+.booking-form-section textarea {
+  resize: vertical;
+}
+
+/* Days and Time Slots */
+
+.days-list,
+.slots-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.day-btn,
+.time-btn {
+  padding: 12px 19px;
+  border: 1px solid #B8CFC5;
+  border-radius: 9px;
+  background-color: #FFFFFF;
+  color: #183D35;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.day-btn:hover,
+.time-btn:hover:not(:disabled) {
+  background-color: #E5EFEA;
+  border-color: #397A68;
+  transform: translateY(-2px);
+}
+
+.day-btn.selected,
+.time-btn.selected {
+  background-color: #183D35;
+  color: #FFFFFF;
+  border-color: #183D35;
+  box-shadow: 0 4px 10px rgba(24, 61, 53, 0.18);
+}
+
+/* Booked Time Slots */
+
+.time-btn:disabled {
+  background-color: #F0E9E3;
+  color: #A28D80;
+  border-color: #E2D5CA;
+  cursor: not-allowed;
+  text-decoration: line-through;
+  opacity: 0.8;
+  transform: none;
+}
+
+/* Confirm Appointment Button */
+
+.confirm-btn {
+  width: 100%;
+  margin-top: 32px;
+  padding: 16px;
+  background-color: #397A68;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background-color: #183D35;
+  box-shadow: 0 6px 15px rgba(24, 61, 53, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Booking Message */
+
+.booking-message {
+  margin-top: 20px;
+  padding: 14px;
+  background-color: #E5EFEA;
+  border-left: 4px solid #397A68;
+  border-radius: 7px;
+  color: #183D35;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+  .booking-page {
+    padding: 40px 5%;
+  }
+
+  .booking-form-section {
+    padding: 24px 20px;
+  }
+
+  .booking-header h1 {
+    font-size: 29px;
+  }
+
+  .booking-header p {
+    font-size: 15px;
+  }
+
+  .booking-form-section h2 {
+    font-size: 20px;
+  }
+
+  .day-btn,
+  .time-btn {
+    padding: 11px 15px;
+  }
+}
