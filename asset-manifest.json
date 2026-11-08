@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Prime-Medical-Center/static/css/main.6ee4f5d2.css",
+    "main.js": "/Prime-Medical-Center/static/js/main.6862085c.js",
+    "static/media/medical-center.jpg.jpeg": "/Prime-Medical-Center/static/media/medical-center.jpg.34df37aaea1853be1c9b.jpeg",
+    "static/media/dentistry.jpg.jpeg": "/Prime-Medical-Center/static/media/dentistry.jpg.5e1510ea00048b8a4963.jpeg",
+    "static/media/dr.TalaAyoub.jpeg": "/Prime-Medical-Center/static/media/dr.TalaAyoub.4648c64ef1fd91c3b485.jpeg",
+    "static/media/dr.ZeinaMoussa.jpeg": "/Prime-Medical-Center/static/media/dr.ZeinaMoussa.2c02bb063ef7bde1bc90.jpeg",
+    "static/media/dr.EliasSaliba.jpeg": "/Prime-Medical-Center/static/media/dr.EliasSaliba.47f549f0e6748d23b76d.jpeg",
+    "static/media/general.jpg.jpeg": "/Prime-Medical-Center/static/media/general.jpg.ef3d3100d0b51c15a1b9.jpeg",
+    "static/media/dr.MayaFarah.jpeg": "/Prime-Medical-Center/static/media/dr.MayaFarah.6f21f97f4ca1c0336a72.jpeg",
+    "static/media/dr.AhmadHassan.jpeg": "/Prime-Medical-Center/static/media/dr.AhmadHassan.fd125b5760267c64dbfe.jpeg",
+    "static/media/dermatology.jpg.jpeg": "/Prime-Medical-Center/static/media/dermatology.jpg.2bccabef09895e48aaf5.jpeg",
+    "static/media/dr.RamiDaher.jpeg": "/Prime-Medical-Center/static/media/dr.RamiDaher.aa0be2050bc00300323f.jpeg",
+    "static/media/dr.FadiMansour.jpeg": "/Prime-Medical-Center/static/media/dr.FadiMansour.7613c0cad7bff168484e.jpeg",
+    "static/media/dr.SaraDaher.jpeg": "/Prime-Medical-Center/static/media/dr.SaraDaher.2f87eae32f5a08c87565.jpeg",
+    "static/media/dr.OmarNassar.jpeg": "/Prime-Medical-Center/static/media/dr.OmarNassar.2a3344d4e5cdfd017e31.jpeg",
+    "static/media/cardiology.jpg.jpeg": "/Prime-Medical-Center/static/media/cardiology.jpg.4cbd840960b2ce4202c3.jpeg",
+    "static/media/dr.AliBarakat.jpeg": "/Prime-Medical-Center/static/media/dr.AliBarakat.db2302555a4ee3284a4e.jpeg",
+    "static/media/dr.MariamMansour.jpeg": "/Prime-Medical-Center/static/media/dr.MariamMansour.287d385c317db44a0da0.jpeg",
+    "static/media/dr.LeenFares.jpeg": "/Prime-Medical-Center/static/media/dr.LeenFares.6558b0514bb018706c98.jpeg",
+    "static/media/dr.NadineAbiSaab.jpeg": "/Prime-Medical-Center/static/media/dr.NadineAbiSaab.15b764008645133a2d1a.jpeg",
+    "static/media/dr.NourKhalil.jpeg": "/Prime-Medical-Center/static/media/dr.NourKhalil.2a8ad135dec2ba8a4394.jpeg",
+    "static/media/pediatric.jpg.jpeg": "/Prime-Medical-Center/static/media/pediatric.jpg.f9e52114a252b5fda16a.jpeg",
+    "static/media/dr.KarimYoussef.jpeg": "/Prime-Medical-Center/static/media/dr.KarimYoussef.0359e87d6df17b5c43bc.jpeg",
+    "static/media/dr.RaniaKhoury.jpeg": "/Prime-Medical-Center/static/media/dr.RaniaKhoury.38dfdb30ccdcac4a1bd5.jpeg",
+    "static/media/dr.HadiKaram.jpeg": "/Prime-Medical-Center/static/media/dr.HadiKaram.fbceb83f6069fcd42aa6.jpeg",
+    "static/media/gynecology.jpg.jpeg": "/Prime-Medical-Center/static/media/gynecology.jpg.ab7c2aa380ff9730c68d.jpeg",
+    "static/media/dr.JosephRizk.jpeg": "/Prime-Medical-Center/static/media/dr.JosephRizk.fe4831c9b379034789d2.jpeg",
+    "index.html": "/Prime-Medical-Center/index.html",
+    "main.6ee4f5d2.css.map": "/Prime-Medical-Center/static/css/main.6ee4f5d2.css.map",
+    "main.6862085c.js.map": "/Prime-Medical-Center/static/js/main.6862085c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ee4f5d2.css",
+    "static/js/main.6862085c.js"
+  ]
+}
