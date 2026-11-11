@@ -128,7 +128,7 @@ function Booking() {
 
             <label>Phone Number</label>
             <input
-              type="tel"
+              type="number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter your phone number"
@@ -152,7 +152,7 @@ function Booking() {
               onChange={(e) => {
                 setSelectedDate(e.target.value);
                 setSelectedTime('');
-                setMessage('');  
+                setMessage('');
               }}
               required
             />
